@@ -1,0 +1,54 @@
+body{
+    background-color:black ;
+}
+h3,h1{
+    color: rgb(255, 183, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: gainsboro;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#symbol{
+    color: brown;
+}
+
+h3{
+    margin-bottom: 0;
+  }
+
+#side{
+    color : white;
+    background-color: rgb(255, 183, 0);
+    width: 5%;
+    padding: 10px;
+    float: right;
+    margin-top: 100px;
+    letter-spacing: normal;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#main{
+    float: left;
+    margin-left:10px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #main {
+      width: 80%;
+      padding: 0;
+    }
+    #side {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #main, #right {
+      width: 100%;
+    }
+  }
